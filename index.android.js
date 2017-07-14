@@ -26,6 +26,9 @@ export default class react_native_demo extends Component {
           Double tap R on your keyboard to reload,{'\n'}
           Shake or press menu button for dev menu
         </Text>
+        <Text style={styles.instructions}>
+	Welcome to MeetBuzz!
+        </Text>
       </View>
     );
   }
