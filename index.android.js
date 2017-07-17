@@ -13,11 +13,12 @@ import {
 } from 'react-native';
 
 import SampleComponent from './components/SampleComponent/SampleComponent.js';
+import Login from './components/Login/Login.js';
 
 export default class react_native_demo extends Component {
   render() {
     return (
-        <SampleComponent />
+        <Login />
     );
   }
 }
