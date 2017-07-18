@@ -14,11 +14,12 @@ import {
 
 import SampleComponent from './components/SampleComponent/SampleComponent.js';
 import Login from './components/Login/Login.js';
+import BlinkApp from './components/Blink/Blink.js'
 
 export default class react_native_demo extends Component {
   render() {
     return (
-        <Login />
+        <BlinkApp />
     );
   }
 }
